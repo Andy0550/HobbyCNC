@@ -6,4 +6,9 @@ Tato stránka se věnuje bakalářské práci na téma Konstrukce zařízení na
 
 Plný text práce je k dostání v souboru [Dvorak_Michael_2021_BP.pdf.](Dvorak_Michael_2021_BP.pdf)
 
+## 
+
+## Protokol změn
+
+
 
