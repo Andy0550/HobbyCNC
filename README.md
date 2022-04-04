@@ -16,5 +16,5 @@ Z důvodu větší bezpečnosti a zlepšení celkového vzhledu zařízení, byl
 
 ### v1.2 - Ukazatel otáček
 
-Vzhledem k problému nemožnosti přímého ovládání otáček vřetene za současně použité řídící elektroniky, byl nedostatek aktuálně minimalizován použitím přídavného měřiče otáček.
+Vzhledem k problému nemožnosti přímého ovládání otáček vřetene za současně použité řídící elektroniky, byl nedostatek aktuálně minimalizován použitím přídavného měřiče otáček. Princip měření je založen na použití infračerveného senzoru překážek spolu s Arduino Nano a displejem 16x2. 
 
