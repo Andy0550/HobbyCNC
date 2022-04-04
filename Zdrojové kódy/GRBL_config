@@ -33,3 +33,4 @@ $122 = 10.000    (Z-axis acceleration, mm/sec^2)
 $130 = 200.000    (X-axis maximum travel, millimeters)
 $131 = 200.000    (Y-axis maximum travel, millimeters)
 $132 = 150.000    (Z-axis maximum travel, millimeters)
+ok
