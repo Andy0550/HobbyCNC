@@ -16,5 +16,5 @@ Z důvodu větší bezpečnosti a zlepšení celkového vzhledu zařízení, byl
 
 ### v1.2 - Ukazatel otáček
 
-Důležité vylepšení v podobě měřiče otáček vřetene
+Vzhledem k problému nemožnosti přímého ovládání otáček vřetene za současně použité řídící elektroniky, byl nedostatek aktuálně minimalizován použitím přídavného měřiče otáček.
 
