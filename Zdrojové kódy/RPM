@@ -1,0 +1,43 @@
+#include <LiquidCrystal_I2C.h>       
+LiquidCrystal_I2C lcd(0x27,16,2);    
+
+float value=0;
+float rev=0;
+int rpm;
+int oldtime=0;        
+int time;
+
+void isr()         
+{
+rev++;
+}
+
+void setup()
+{
+Serial.begin(115200);
+lcd.begin();                       
+lcd.begin();
+lcd.backlight();
+attachInterrupt(1,isr,RISING); 
+}
+
+void loop()
+{
+delay(1000);
+detachInterrupt(0);          
+time=millis()-oldtime;        
+rpm=(rev/time)*60000;        
+oldtime=millis();             
+rev=0;
+Serial.println(rpm);
+lcd.clear();
+lcd.setCursor(0,0);
+lcd.print("  SPINDLE SPEED   ");
+lcd.setCursor(0,1);
+lcd.print("RPM: ");
+lcd.setCursor(5,1);
+lcd.print(rpm);
+lcd.print("   ");
+attachInterrupt(0,isr,RISING);
+
+}
