@@ -18,3 +18,6 @@ Z důvodu větší bezpečnosti a zlepšení celkového vzhledu zařízení, byl
 
 Vzhledem k problému nemožnosti přímého ovládání otáček vřetene za současně použité řídící elektroniky, byl nedostatek aktuálně minimalizován použitím přídavného měřiče otáček. Princip měření je založen na použití infračerveného senzoru překážek spolu s Arduino Nano a displejem 16x2. 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/39034317/161742627-6d7dd3bc-afd9-47eb-bd9e-7d3834d60112.JPG" width=500>
+</p>
